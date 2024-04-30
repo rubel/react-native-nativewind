@@ -44,7 +44,7 @@ function App(): React.JSX.Element {
         <View className="h-screen">
           {['Rubel', 'Alvi', 'Ma', 'Ayan', 'Abrar', 'Rotna', 'Ayra'].map(
             (name, index) => (
-              <View key={index} className='p-2 mb-1 bg-red-200'>
+              <View key={index} className='p-2.5 mb-1 bg-blue-200'>
                 <Text>{name}</Text>
               </View>
             ),
